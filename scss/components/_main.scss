@@ -1,0 +1,30 @@
+html {
+    font-family: $helvetica;
+}
+
+h1 {
+    font-family: $open-sans;
+}
+
+.border{
+    border: 1px solid $itstooteal;
+    p{
+        color: $mintgreen;
+    }
+    
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.primary-btn{
+  @include button($itstooteal);   //⬅︎ When we use the mixin we need to give it a bg-color
+}
+
+.secondary-btn{
+  @include button($unicorn);   //⬅︎ When we use the mixin we need to give it a bg-color
+}

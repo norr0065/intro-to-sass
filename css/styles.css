@@ -1,0 +1,45 @@
+/* Imports */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.border {
+  border: 1px solid #98ebe9;
+}
+
+.border p {
+  color: #c0fedd;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.primary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #98ebe9;
+}
+
+.secondary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #dcbee9;
+}
